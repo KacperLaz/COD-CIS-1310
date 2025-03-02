@@ -86,7 +86,7 @@ nav a:visited {
 # Header Area
 --------------------------------------------------------------*/
 header {
-    background-color: #f0f0f0;
+    background-color: #006400;
     padding: 1rem;
 }
 
@@ -109,7 +109,7 @@ aside {
 --------------------------------------------------------------*/
 footer {
     clear: both;
-    background-color: #f0f0f0;
+    background-color: #006400;
     text-align: center;
 }
 
