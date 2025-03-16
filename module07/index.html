@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Lab</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <figure>
+        <picture>
+            <!-- Mobile WebP -->
+            <source media="(max-width: 600px)" type="image/webp" srcset="image-small.webp">
+            <!-- Mobile JPG -->
+            <source media="(max-width: 600px)" type="image/jpeg" srcset="image-small.jpg">
+            <!-- Desktop WebP -->
+            <source type="image/webp" srcset="image-large.webp">
+            <!-- Desktop JPG -->
+            <source type="image/jpeg" srcset="image-large.jpg">
+            <img src="image-large.jpg" alt="placeholder for the image">
+        </picture>
+        <figcaption>This is the caption for the image.</figcaption>
+    </figure>
+</body>
+</html>
