@@ -4,7 +4,9 @@ body {
     align-items: center;
     min-height: 100vh;
 }
-
+figure {
+    text-align: center;
+}
 picture img {
     max-width: 100%;
     height: auto;
