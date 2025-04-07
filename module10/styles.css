@@ -1,0 +1,68 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr 4fr 5fr 6fr 7fr 8fr;
+    grid-template-rows: 1fr 2fr 3fr 4fr 5fr 6fr 7fr 8fr;
+    grid-template-areas:
+        "red . . . . . . ."
+        "orange orange . . . . . ."
+        "yellow yellow yellow . . . . ."
+        "green green green green . . . ."
+        "cyan cyan cyan cyan cyan . . ."
+        "blue blue blue blue blue blue . ."
+        "violet violet violet violet violet violet violet ."
+        "purple purple purple purple purple purple purple purple";
+    height: 100vh;
+    margin: 0;
+}
+
+.black {
+    grid-column: 1 / 9;
+    grid-row: 1 / 9;
+    background-color: black;
+}
+
+.white {
+    grid-column: 2 / 8;
+    grid-row: 2 / 8;
+    background-color: white;
+}
+
+.red {
+    grid-area: red;
+    background-color: red;
+}
+
+.orange {
+    grid-area: orange;
+    background-color: orange;
+}
+
+.yellow {
+    grid-area: yellow;
+    background-color: yellow;
+}
+
+.green {
+    grid-area: green;
+    background-color: green;
+}
+
+.cyan {
+    grid-area: cyan;
+    background-color: cyan;
+}
+
+.blue {
+    grid-area: blue;
+    background-color: blue;
+}
+
+.violet {
+    grid-area: violet;
+    background-color: violet;
+}
+
+.purple {
+    grid-area: purple;
+    background-color: purple;
+}
