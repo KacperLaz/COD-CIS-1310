@@ -53,9 +53,14 @@ section {
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-    transition: transform 0.3s ease;
+    img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        display: block;
+        margin: 1rem auto;
+        transition: transform 0.3s;
+    }
 }
 
 img:hover {
