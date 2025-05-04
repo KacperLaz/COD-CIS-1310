@@ -58,9 +58,10 @@ section {
   
   .car-img {
     width: 300px;          
-    height: auto;          
-    object-fit: contain;    
-    margin: 1rem 0;
+    height: 300px;          
+    object-fit: contain;
+    display: block;    
+    margin: 1rem auto;
     transition: transform 0.3s;
   }
   
