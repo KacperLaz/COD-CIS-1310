@@ -63,7 +63,15 @@ nav ul li a:hover {
 #home p {
     font-size: 1.1em;
 }
-
+.profile-pic {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
 /* Experience Section */
 #experience h2 {
     text-align: center;
