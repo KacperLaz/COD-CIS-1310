@@ -156,12 +156,12 @@ nav ul li a:hover {
 }
 
 .video-container {
-    position: center;
+    position: relative;
     padding-bottom: 56.25%; /* 16:9 aspect ratio */
     height: 0;
     overflow: hidden;
-    margin-bottom: 20px;
-    max-width: 100%;
+    margin: 0 auto 20px auto;
+    max-width: 800px;
 }
 
 .video-container iframe {
