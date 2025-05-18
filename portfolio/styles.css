@@ -98,8 +98,38 @@ nav ul li a:hover {
     border-radius: 5px;
     margin-bottom: 10px;
 }
+/* About Section */
+#about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+#about h1,
+#about h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+#about p,
+#about ul {
+    text-align: left;
+    padding-left: 20px;
+    margin: 0 auto 20px auto;
+}
+
+#about ul {
+    list-style: disc;
+}
 
 /* Interests Section */
+#interests {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
 #interests h2 {
     text-align: center;
     margin-bottom: 20px;
@@ -107,13 +137,16 @@ nav ul li a:hover {
 }
 
 #interests ul {
-    list-style: none;
-    text-align: center;
+    list-style: disc;
+    text-align: left;
+    padding-left: 20px;
+    margin: 0 auto;
 }
 
 #interests li {
     margin: 10px 0;
 }
+
 
 /* Embedded Content Section */
 #embedded h2 {
