@@ -161,7 +161,7 @@ nav ul li a:hover {
     height: 0;
     overflow: hidden;
     margin: 0 auto 20px auto;
-    max-width: 800px;
+    max-width: 600px;
 }
 
 .video-container iframe {
