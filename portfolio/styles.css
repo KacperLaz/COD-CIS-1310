@@ -161,7 +161,7 @@ nav ul li a:hover {
     height: 0;
     overflow: hidden;
     margin: 0 auto 20px auto;
-    max-width: 400px;
+    max-width: 500px;
 }
 
 .video-container iframe {
@@ -255,6 +255,7 @@ form button:hover {
 html {
     scroll-behavior: smooth;
 }
+/* Scroll to Top button */
 #scrollTopBtn {
     display: none;
     position: fixed;
