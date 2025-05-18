@@ -132,7 +132,7 @@ nav ul li a:hover {
 }
 
 .video-container iframe {
-    position: center;
+    position: absolute;
     top: 0;
     left: 0;
     width: 50%;
